@@ -1,0 +1,12 @@
+PB ATIH
+=======
+
+- pas nécessaire en Alsace
+- pas de concertation
+- rallonge le circuit sans apporter d'amélioration
+- tableaux de bords minimalistes
+- données récupérable sur le serveur ATIH sont transformées (XML -> csv)
+- format est figé (pas de possibilité d'évolution)
+- comment récupérer les consolidations mensuelles de l'ATIH ? en pratique comment récupérer les données manquantes ?
+- comment sont stockés/récupérés les RPU remplissant les critères de rejet (triplet date, heure, date de naissance incorrect)
+- que deviennent les données au 31 décembre ? La base ATIH est remise à 0. Où vont être stockées les donnée de l'année

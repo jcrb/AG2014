@@ -1,0 +1,14 @@
+Construction du rapport moral
+=============================
+
+Le rapport moral a été créé dans Retex sous le nom de rapport moral puis traduit en Word, Open office et Pdf via Pandoc.
+
+Procédure:
+----------
+
+- ouvrir une console
+- se déplacer dans le dossier contenant le rapport: cd ~/Documents/Resural/"AG 2014"
+- exécuter les instructions:
+    - word: pandoc -o Rapport.docx "Rapport moral.mkd"
+    - OO: pandoc -o Rapport.docx "Rapport moral.mkd"
+    - Pdf: pandoc -o Rapport.pdf "Rapport moral.mkd"

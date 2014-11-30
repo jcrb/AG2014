@@ -1,0 +1,154 @@
+Définition des limites
+======================
+
+Journée  |  Demi-journée  |  Période  |  Horaire
+---------|----------------|-----------|-----------
+Jour civil [00h00 - 23h59]  |  Journée [08h00 - 19h59]  |  matinée  |  [08h00 - 11h59]  
+  |  |  début après-midi  |  [12h00 - 15h59]  
+  |  |  fin après-midi  |  [16h00 - 19h59]  
+  |  |  soirée  |  [20h00 - 23h59]  
+  |  |  début après-midi  |  [00h00 - 07h59]  
+
+
+PDS permanence des spoins
+PDSA permanence des soins ambulatoire
+PDSES   permanence des soins établissements de santé
+ESPIC   établissements de santé privés d’intérêt collectif (ex.PSPH)
+
+Horaires de PDS
+---------------
+
+Week-end PDSA: [samedi 12h00] au [lundi 07h59]
+
+Semaine: [lundi au vendredi] de [20h00 - 07h59] le lendemain
+
+Jour férié: de [00h00 à 23h59]
+
+Pont PDSA: de [00h00 à 23h59]
+
+Si un pont ou un jour férié survirnt un vendredi, le samedi matin suivant est intégré dans la PDSA
+
+
+Durée de passage
+----------------
+
+Indicateur calculé entre la date/heure de sortie et la date/heure d'entrée du service des urgences.
+
+Sont exclues de l'analyse
+- les durées de passage négatives
+- les durées nulles ou supérieures à 72 heures
+
+ A  | B  |  
+---|--- | --------- 
+Moins de 4 heures  |  moins d'une heure  |  [60[
+  |  entre 1 et 2 heures  |  [60 - 120[
+  |  de 2 à 4 heures  |  [120 - 240[ 
+4 heures et plus  |  de 4 à 8 heures  |  [240 - 480[
+  | de 8 à 12 heures  |  [480 - 720[  
+    |  entre 12 et 72 heures  |  [720 - 4320[
+    
+__moyenne__ somme des durées de passages / nombre de passages
+
+__médiane__ milieu de l'échantillon ragé par ordre de durée croissante
+
+__quartiles__ recommandés
+
+Les durées de passage doivent être analysée au regard dutype de patientèle (adulte, ped, médecine, traumato...)
+
+
+Tranches d'âge
+--------------
+
+__moins de 18 ans__ <28j [28j-1A[ [1-5[ [5-10[ [10-15[ [15-18[
+
+__adultes__ [18-30[ [30-45[ [45-65[ [65-75[ [75-85[ > 84 ans
+
+Sexe
+------
+
+__sex-ratio__ M / F
+
+__rapport de masculinité__ M / (M + F)
+
+Pyramide des age de la patientèle comparée à la population gébérale est fortement recommandée.
+
+Indice dérivés du code postal
+-----------------------------
+
+### Taux de recours théorique aux urgences
+
+- numérateur: nombre de patients différents résidant dans une zone géographique donnée ayant consulté aux urgences
+- dénominateur: estimation de la population de la zone géographique concernée pour la période donnée.
+
+### Taux de passage régional ou départemental
+
+- numérateur: nombre de passage dans les services d'urgence d'une zone donnée (région, département)
+- dénominateur: population estimée de cette zone sur la période donnée
+
+### Taux de recours régional ou départemental
+
+- numérateur: nombre de passage dans les services d'urgence d'une zone donnée (région, département) de patients __résidants__ dans cette zone
+- dénominateur: population estimée de cette zone sur la période donnée
+
+### Ratio Taux de passage / taux de recours
+
+- mesure de l'attractivité touristique
+
+### Cartographie des taux de recours
+
+par code postal de résidence: suivre l'évolution annuelle
+
+Une coopération inter-régionale permettrait de mesurer les taux fuite (Voir avec la Lorraine)
+
+Motifs de passage
+-----------------
+
+Utiliser les codes de regroupement ORUMIP pour l'analyse
+
+Autres axes d'analyse
+---------------------
+
+### Géographique
+
+- Région
+- Département
+- Bassin de santé
+- Code postal
+
+### Chronologique
+
+- annuel
+- mois / saison
+- jour de semaine
+- PDS/ hors PDS
+- tranches horaires
+- heures
+
+### Typologie de SU
+
+- public
+- privé
+- ESPIC
+- siège de SAMU
+- siège de SMUR
+- autre
+
+### Patientèle
+
+- ages: tranches, moyennes, médianes, pyramide des ages
+- sexe, sexe ratio, taux de masculinité
+- taux de recours, taux de passage
+
+### Passages
+
+- mode de transport
+- provenance
+- durée de passage
+- diagnostic principal
+- devenir: mode de sortie, orientation
+
+Précautions
+-----------
+
+- redresser les mois et les jours de semaine pour que les comparaisons aient un sens
+- préciser les paramètres de l'analyse notamment si intégration d'un nouvel établissement, rupture partielle de flux, intégration de passages pédiatriques.
