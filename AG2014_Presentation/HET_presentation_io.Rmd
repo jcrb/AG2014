@@ -1,10 +1,61 @@
+---
+title: "Hôpital en tension HET"
+author: "RESURAL"
+date: "05/12/2014"
+output:
+  ioslides_presentation:
+    logo: resural2.png
+    
+---
 
+# IoSlides - Diapo de titre
 
-Hôpital en tension (HET)
-========================================================
-author: RESURAL
-date: 2 décembre 2014
-autosize: true
+## Avertissement
+
+Cette présentation est un essai du programme __ioslide__
+
+To create an ioslides presentation from R Markdown:
+
+- you specify the ioslides_presentation output format in the front-matter of your document. 
+- You can create a slide show broken up into sections by using the # and ## heading tags 
+- (you can also create a new slide without a header using a horizontal rule (----). 
+
+----
+
+Cette diapo sans titre a été crée avec la règle "----"
+
+# exemple de diapo | avec un sous titre
+
+## exemple de diapo | avec un sous titre
+
+On peut utiliser les raccourcis clavier pour modifier l'apparencede la présentation: 
+
+    'f' enable fullscreen mode
+
+    'w' toggle widescreen mode
+
+    'o' enable overview mode
+
+    'h' enable code highlight mode
+
+    'p' show presenter notes
+
+Appuyer sur Esc pour quitter tous ces modes. 
+
+##
+<b>
+x <- 10
+y <- x * 2
+</b>
+
+<div class="centered">
+Ce texte est centré.
+</div>
+
+<div class="red2">
+This text is red
+</div>
+
 
 Carte des tensions
 ========================================================
@@ -13,8 +64,8 @@ Carte des tensions
 
 Cette présentation est basée sur le travail de la FEDORU (GT4 Hôpital en tension)
 
-Définition
-========================================================
+
+## Définition
 
 L'HET est une situation exceptionnelle conséquence d'une inadéquation entre 
 
@@ -25,8 +76,8 @@ C'est une situation critique pouvant évoluer ver une situation de crise.
 
 Cette définition est proche de celle d'une situation de catastrophe (déséquilibre entre l'offre et la demande).
 
-Trois grandes classes de tensions
-========================================================
+
+## Trois grandes classes de tensions
 
 1. Tensions d'__affluence__
     - épidémique (grippe, bronchiolite)
@@ -310,3 +361,4 @@ type: sub-section
 6. améliorer l'__accès aux lits__ d'hospitalisation (29)
 
 7. __adapter les moyens__ à la demande (12)
+

@@ -29,12 +29,32 @@ Rôle et responsabilité des différents acteurs
 =============================================
 
 - ARS
+    - responsable de la collecte des données
+    - de la mise à jour de la liste des structures devant transmettre des RPU
+    - du retour des informations traitées vers les établissements producteurs
 - ATIH
+    - assure le recueil mensuel des RPU dans le cadre du programme Syrius
+    - assure le recueil quotidien des RPU en tant que concentrateur régional, ainsi que leur mise à disposition en temps réel
+    - l'ATIH veille l'envoi quotidien des données et informe les établissements, Alsace e-santé et RESURAL en cas de non transmission depuis plus de x heures
 - RESURAL
+     - traite les données issues des RPU avec le concours de l'Observatoire des urgences
+    - met en place les outil de mesure de la qualité des données
+    - produit un rapport annuel de l'activité des urgences
+    - assure le lien avec la FEDORU
 - FEDORU
+    - formule des recommandations au niveau national concernant les bonnes pratiques du recueil des RPU et sur leur évolution
+
+Rôle et responsabilité des différents acteurs (2)
+=============================================
+
 - Alsace esanté
+    - apporte son expertise informatique dans l'établissement des liens entre les différents acteurs
+    - aide à la résolution des pannes et difficultés de transmission des RPU
 - Les établissements sièges des SU
+    - garantissent le recueil et la transmission des RPU conformément aux dispositions de la réglementation et de la présente charte
+    - mettent en place la veille des alertes du concentrateur régional déclenchées par l'absence de transmission des RPU de la veille
 - CIRE/InVS
+    - reçoit les données quotidiennes transmises par les établissements de santé par l'intermédiaure du concentrateur régional
 
 Structures concernées
 =====================
@@ -66,6 +86,19 @@ Méthodes de collecte et d'import
 
 - les mentions figurant au format national 2006 et repris par l'arrêté 2013 sont __obligatoires__
 - Les régions ou établissements qui le souhaitent peuvent y faire figurer des mentions supplémentaires (Pb ATIH)
+
+Composition minimale d'un RPU
+=============================
+Ce sont tous les items renseignés dès l'ouverture du dossier informatique:
+
+- date et heure d'entrée
+- mode de transport
+- prise en charge durant le transport
+- sexe
+- date de naissance
+- code postal du lieu de résidence
+- nom de la commune
+- la provenance
 
 1. Extraction des RPU
 =====================
@@ -200,9 +233,25 @@ Variables RPU
 Mode de transport
 -----------------
 
-Mode de prise en charge
+Par quel moyen le patient est-il arrivé aux urgences ? Items autorisés:
+
+- PERS moyen personnel
+- AMBU ambulance (autre que SMUR ou VSAV)
+- VSAB ambulance du SDIS
+- SMUR ambulance médicalisée
+- HELI hélicoptère
+- FO   Forces de l'ordre
+
+Mode de prise en charge pendant le transport
 ------------------------
 
+- MED tansport médicalisé
+- PARAMED transport paramédicalisé
+- AUCUN 
+
+notes:
+- ambulance privée ou VSAV avec un véhicule léger du SMUR = AMBU + MED ou VSAV + MED
+- MED est systématique avec HELI ou SMUR
 
 Variables RPU
 ==============
@@ -210,15 +259,15 @@ Variables RPU
 Mode d'entrée/ Provenance / Mode de sortie / Orientation / Destination
 -----------------------------------------------------------------------
 
-MODE ENTREE / MODE DE SORTIE  |  PROVENANCE / DESTINATION   
-------------------------------|--------------------------
-6: MUTATION depuis/dans l'établissement siège du SU  |  1: Établissement ou service MCO  
-7: TRANSFERT depuis/vers un autre établissement  |  2: Établissement ou service SSR 
-8: DOMICILE au sens large, y compris la voie publique | 3: Établissement ou service SLD  
-9: DECES aux urgences. Uniquement en mode sortie  |  4: Établissement ou service PSY  
-  |  5: Prise en charge autre qu'organisationnelle
-  |  7: Structure médico-sociale
-  |  8: Prise en charge organisationnelle
+MODE ENTREE - MODE DE SORTIE  |  PROVENANCE - DESTINATION   
+------------------------------|--------------------------   
+6: MUTATION depuis/dans l'établissement siège du SU  |  1: Établissement ou service MCO   
+7: TRANSFERT depuis/vers un autre établissement  |  2: Établissement ou service SSR   
+8: DOMICILE au sens large, y compris la voie publique | 3: Établissement ou service SLD   
+9: DECES aux urgences. Uniquement en mode sortie  |  4: Établissement ou service PSY    
+  |  5: Prise en charge autre qu'organisationnelle   
+  |  7: Structure médico-sociale   
+  |  8: Prise en charge organisationnelle   
   
 Ces variables permettent de faire un certain nombre de croisement:
 
@@ -279,6 +328,3 @@ Actes
 
 Codés en CCAM, le format doit au moins contenir les 7 premiers caractères. Il est recommandé d'utiliser le __thésaurus CCAM__ de la SFMU.
 
-Hôpital en tension (HET)
-========================================================
-type: section

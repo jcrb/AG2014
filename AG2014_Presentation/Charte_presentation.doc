@@ -1,0 +1,250 @@
+<h1 id="eléments-dune-charte-rpu">Eléments d'une charte RPU</h1>
+<p>author: RESURAL date: 2 décembre 2014 autosize: true</p>
+<h1 id="elements-dune-charte-rpu">Elements d'une charte RPU</h1>
+<p>type: section</p>
+<h1 id="historique">Historique</h1>
+<ul>
+<li><strong>1999</strong> epérimentation GPU (groupes de passages aux urgences) initiée par la DHOS</li>
+<li><strong>2002</strong> test national de recueil des RPU</li>
+<li><strong>2004</strong> création du réseau OSCOUR (Ooganisation de la Surveillance COordonnée des URgences (InVS)</li>
+<li><strong>2006</strong> définition du format national des RPU (DHOS, InVS, SFMU)</li>
+<li><strong>2013</strong> Arrêté et instruction RPU (DHOS, ATIH).
+<ul>
+<li>Le recueil des RPU est rendu obligatoire</li>
+<li>la responsabilité de la collecte confiée aux ARS avec délégation possible à une structure régionale (Alsace esanté, RESURAL)</li>
+<li>les données doivent être transmises
+<ul>
+<li>à l'InVS (OSCOUR)</li>
+<li>à l'ATIH (SYRIUS: système de recueil de l'information des urgences)</li>
+</ul></li>
+</ul></li>
+</ul>
+<p>La FEDORU recommande la création dans chaque région d'une équipe de gestion des RPU qui, au delà des aspects techniques de mise en oeuvre, sera également garante de la qualité des données transmises ainsi que de la capacité de a région à progresser dans la collecte d'indicateurs RPU complémentaires à même de qualifier les situations de tensions sanitaires.</p>
+<h1 id="rôle-et-responsabilité-des-différents-acteurs">Rôle et responsabilité des différents acteurs</h1>
+<ul>
+<li>ARS
+<ul>
+<li>responsable de la collecte des données</li>
+<li>de la mise à jour de la liste des structures devant transmettre des RPU</li>
+<li>du retour des informations traitées vers les établissements producteurs</li>
+</ul></li>
+<li>ATIH
+<ul>
+<li>assure le recueil mensuel des RPU dans le cadre du programme Syrius</li>
+<li>assure le recueil quotidien des RPU en tant que concentrateur régional, ainsi que leur mise à disposition en temps réel</li>
+<li>l'ATIH veille l'envoi quotidien des données et informe les établissements, Alsace e-santé et RESURAL en cas de non transmission depuis plus de x heures</li>
+</ul></li>
+<li>RESURAL
+<ul>
+<li>traite les données issues des RPU avec le concours de l'Observatoire des urgences</li>
+<li>met en place les outil de mesure de la qualité des données</li>
+<li>produit un rapport annuel de l'activité des urgences</li>
+<li>assure le lien avec la FEDORU</li>
+</ul></li>
+<li>FEDORU
+<ul>
+<li>formule des recommandations au niveau national concernant les bonnes pratiques du recueil des RPU et sur leur évolution</li>
+</ul></li>
+</ul>
+<h1 id="rôle-et-responsabilité-des-différents-acteurs-2">Rôle et responsabilité des différents acteurs (2)</h1>
+<ul>
+<li>Alsace esanté
+<ul>
+<li>apporte son expertise informatique dans l'établissement des liens entre les différents acteurs</li>
+<li>aide à la résolution des pannes et difficultés de transmission des RPU</li>
+</ul></li>
+<li>Les établissements sièges des SU
+<ul>
+<li>garantissent le recueil et la transmission des RPU conformément aux dispositions de la réglementation et de la présente charte</li>
+<li>mettent en place la veille des alertes du concentrateur régional déclenchées par l'absence de transmission des RPU de la veille</li>
+</ul></li>
+<li>CIRE/InVS
+<ul>
+<li>reçoit les données quotidiennes transmises par les établissements de santé par l'intermédiaure du concentrateur régional</li>
+</ul></li>
+</ul>
+<h1 id="structures-concernées">Structures concernées</h1>
+<ul>
+<li><p>Toutes les structures publiques ou privées d'accueil des urgences mentionées au paragraphe 3 de l'<strong>article R.6123-1</strong> du code de la santé publique.</p></li>
+<li><p>A titre expérimental ou dérogatoire, une ARS peut autoriser la transmission des RPU d'un autre service d'un établissement autorisé à l'accueil des urgences (urgences gynéco, cardio, neuro...) à la seule condition que des données fassent l'objet d'un envoi spécifique.</p></li>
+</ul>
+<h1 id="quels-passages-aux-urgences-doivent-générer-des-rpu">Quels passages aux urgences doivent générer des RPU ?</h1>
+<p><strong>Toute admission informatique</strong> réalisée au sein de l'unité d'accueil des urgences doivent faire l'objet d'un RPU:</p>
+<ul>
+<li>Les <strong>enregistrements simples</strong> aux urgences avant hospitalisation,</li>
+<li>les <strong>réorientations</strong> immédiates sans soins vers une maison médicale de garde ou un médecin de ville</li>
+<li>les <strong>reconvocations</strong> doivent figurer dans les RPU</li>
+</ul>
+<p>(ces situations seront individualisées à l'aide des varaiables MODE DE SORTIE, ORIENTATION et du CODAGE DIAGNOSTIC.</p>
+<h1 id="méthodes-de-collecte-et-dimport">Méthodes de collecte et d'import</h1>
+<ul>
+<li>Depuis la publication du <strong>format national RPU 2006</strong> les éditeurs de ogiciel disposent d'un format <strong>opposable</strong> de production des RPU.</li>
+<li>La méthode d'extraction des données est la même que celle définie dans le cadre du réseau OSCOUR.</li>
+</ul>
+<h1 id="extraction-des-rpu">1. Extraction des RPU</h1>
+<p>1.1 <strong>Les variables à produire</strong></p>
+<ul>
+<li>les mentions figurant au format national 2006 et repris par l'arrêté 2013 sont <strong>obligatoires</strong></li>
+<li>Les régions ou établissements qui le souhaitent peuvent y faire figurer des mentions supplémentaires (Pb ATIH)</li>
+</ul>
+<h1 id="composition-minimale-dun-rpu">Composition minimale d'un RPU</h1>
+<p>Ce sont tous les items renseignés dès l'ouverture du dossier informatique:</p>
+<ul>
+<li>date et heure d'entrée</li>
+<li>mode de transport</li>
+<li>prise en charge durant le transport</li>
+<li>sexe</li>
+<li>date de naissance</li>
+<li>code postal du lieu de résidence</li>
+<li>nom de la commune</li>
+<li>la provenance</li>
+</ul>
+<h1 id="extraction-des-rpu-1">1. Extraction des RPU</h1>
+<p>1.2 <strong>Nommage des fichiers</strong></p>
+<p>Il doit respecter les dispositions de la charte OSCOUR. C'est une chaîne alphanumérique qui associe dans l'ordre:</p>
+<ul>
+<li>le caractère <strong>O</strong> qui identifie le début du nom</li>
+<li>le <strong>FINESS géographique</strong> de l'établissement</li>
+<li>le catactère underscore __&quot;_&quot;__</li>
+<li>le numéro d'ordre du service émetteur:
+<ul>
+<li>0 service d'urgence adulte polyvalent</li>
+<li>1 service d'urgences pédiatriques</li>
+<li>2 service d'urgences chirurgical</li>
+<li>3 service d'urgences médical</li>
+<li>4 service d'urgences psychiatriques</li>
+<li>9 service non autorisé à l'accueil des urgences mais transmettant des RPU par dérogation de l'ARS.</li>
+</ul></li>
+</ul>
+<hr />
+<ul>
+<li>le catactère underscore __&quot;_&quot;__</li>
+<li>date et heure de l'extraction au format AAAAMMJJHHMMSS</li>
+</ul>
+<p>ex: O123456789_0_20141115030000.xml</p>
+<p><em>note</em> à terme le numéro d'ordre devarit être remplacé par le code UF du service émetteur.</p>
+<h1 id="extraction-des-rpu-2">1. Extraction des RPU</h1>
+<p>1.4 <strong>Périodes et fréquence d'extraction</strong></p>
+<p>1.4.1 Dans le cadre de la <strong>veille sanitaire</strong> exercée par l'InVS</p>
+<ul>
+<li>chaque établissement produit chaque nuit une extraction de <strong>l'ensemble des RPU</strong> pour les passages aux urgences dont la date d'entrée est comprise <strong>entre J-1 et J-7 inclus</strong>.</li>
+<li>chaque envoi écrase les envois précédents (ce n'est pas une mise à jour).</li>
+</ul>
+<p>1.4.2 Dans le cadre du <strong>pilotage de l'offre de soins et du premier recours</strong> (programme SYRIUS de l'ATIH)</p>
+<ul>
+<li>l'arrêté 2013 impose une transmission mensuelle des RPU vers l'ATIH</li>
+<li>chaque mois ce sont <u>tous les RPU de Janvier à M-1 de l'année civile en cours</u> qui sont exportés.</li>
+<li>ce procédé doit permettre de consolider les données RPU et de disposer de bases mensuelles exhaustives.</li>
+</ul>
+<p>1.4.3 dans la cadre <strong>pilotage instantanné et dynamique</strong> hôpital en tension</p>
+<ul>
+<li>capacité d'extraire des RPU toutes les 10 mn (voir HET)</li>
+</ul>
+<h1 id="export-des-données">2. Export des données</h1>
+<p>L'ARS Alsace a fait le choix de l'<strong>ATIH comme collecteur régional des données</strong>. L'export des données nécessite:</p>
+<ul>
+<li>la mise en place du connecteur sécurisé ORUPASS dans chaque établissement</li>
+<li>la désignation d'un <strong>correspondant au sein de chaque établissement</strong> pour accuser réception des alertes de l'ATIH et assurer la maintenance correctrice si nécessaire.</li>
+<li>ce référent est <strong>chargé</strong>:
+<ul>
+<li>de réaliser les tests nécéssaires avec l'ATIH avant le passage en production</li>
+<li>de s'assurer que le format du RPU est conforme au cahier des charges opposable</li>
+<li>que <strong>la routine d'extraction</strong>
+<ul>
+<li>prend bien en compte <strong>la totalité des RPU de la période [J-1 à J-7]</strong></li>
+<li><u>y compris ceux qui n'ont pas encore fait l'objet d'un codage médical</u></li>
+<li><u>y compris ceux concernant les patients qui ne sont pas encore sortis des urgences</u> alors même que leur date d'entrée aux urgences est bien dans la fenêtre d'extraction.</li>
+<li>que l'horaire nocturne d'envoi est <strong>compatible avec les impératifs horaires de l'InVS</strong></li>
+</ul></li>
+<li>de veiller à la préservation des flux RPU générés au moment des mises à jour des versions des logiciels utilisés aux urgences</li>
+</ul></li>
+<li>l'interruption du flux des données est signalée par l'ATIH par le biais d'une procédure automatisée que l'établissement doit veiller.</li>
+</ul>
+<h1 id="export-des-données-2">2. Export des données (2)</h1>
+<ul>
+<li><p>Sont considérés comme <strong>doublons</strong> les enregistrements ayant les mêmes:</p>
+<ul>
+<li>date/heure d'entrée</li>
+<li>date de naissance</li>
+<li>sexe</li>
+<li>code postal</li>
+</ul></li>
+</ul>
+<h1 id="variables-rpu">Variables RPU</h1>
+<p>type: section</p>
+<p>Selon le format précisé dans la circulaire du 32/7/2013</p>
+<h1 id="variables-rpu-1">Variables RPU</h1>
+<h2 id="date-et-heure-dentrée">Date et heure d'entrée</h2>
+<p>C'et l'heure d'entrée lors de la création informatique du dossier des urgences. Si l'enregistrement administratif se fait plus tardivement que son admission aux urgences, il est recommandé de mettre à jour ces informations avant de valider l'admission informatique.</p>
+<h2 id="date-et-heure-de-sortie">Date et heure de sortie</h2>
+<p>décrivent le moment où le patient quitte le service des urgences sauf en cas d'hospitalisation en UHTCD l'heure de sortie correspond à la date/heure d'entrée en UHCD.</p>
+<h2 id="date-de-naissance">Date de naissance</h2>
+<p>La date de naissance est attendue au format JJ/MM/AAAA. Comparée à la date d'entrée, elle permet de calculer l'âge du patient.</p>
+<p>Les âges &gt; 120 ans sont exclus de l'analyse</p>
+<p>Pour le <strong>schéma ATIH</strong> la date de naissance est remplacée par l'<strong>âge</strong> calendaire à la date d'entrée du patient.</p>
+<h2 id="sexe">Sexe</h2>
+<p>Le sexe doit être au format M / F / I</p>
+<h1 id="variables-rpu-2">Variables RPU</h1>
+<h2 id="code-postal-et-nom-de-la-commune">Code Postal et nom de la commune</h2>
+<p>Il s'agit du code postal du lieu de résidence du patient, standardisé lorsque le patient réside en dehors du territoire français.</p>
+<ul>
+<li>Code à 5 chiffre valable uniquement pour les personnes résidentes sur le territoire français.</li>
+<li>La norme RPU définit un code de résidence pour les non résidents. Ce code (<strong>99 999</strong>)n'est en général pas respecté et nécessite un détrompage reposant sur le pays de résidence (pas demandé dans le RPU).</li>
+<li>Pour des régions frontalières comme l'Alsace il pourrait être intéressant de distinguer les résidents Suisses et Allemands des autres non résidents.</li>
+<li>Pour la partie des RPU à transmettre à l'<strong>ATIH</strong> ce code doit être remplacé par un <strong>code de résidence</strong> calqué sur le modèle du <strong>PMSI</strong>.</li>
+<li><p>Le nom de la commune figure en clair, ce qui peut poser des problèmes de cohérence (noms composés, accents).</p></li>
+<li><p>Il est recommandé d'utiliser la <strong>nomenclature des villes de l'INSEE</strong> ou <a href="http://www.insee.fr/fr/methodes/nomenclatures/cog/telechargement.asp">Code officiel géographique</a>.</p></li>
+<li><p>Pour le <strong>schéma ATIH</strong> le nom de la commune est remplacé par son code INSEE.</p></li>
+</ul>
+<h1 id="variables-rpu-3">Variables RPU</h1>
+<h2 id="mode-de-transport">Mode de transport</h2>
+<p>Par quel moyen le patient est-il arrivé aux urgences ? Items autorisés:</p>
+<ul>
+<li>PERS moyen personnel</li>
+<li>AMBU ambulance (autre que SMUR ou VSAV)</li>
+<li>VSAB ambulance du SDIS</li>
+<li>SMUR ambulance médicalisée</li>
+<li>HELI hélicoptère</li>
+<li>FO Forces de l'ordre</li>
+</ul>
+<h2 id="mode-de-prise-en-charge-pendant-le-transport">Mode de prise en charge pendant le transport</h2>
+<ul>
+<li>MED tansport médicalisé</li>
+<li>PARAMED transport paramédicalisé</li>
+<li>AUCUN</li>
+</ul>
+<p>notes: - ambulance privée ou VSAV avec un véhicule léger du SMUR = AMBU + MED ou VSAV + MED - MED est systématique avec HELI ou SMUR</p>
+<h1 id="variables-rpu-4">Variables RPU</h1>
+<h2 id="mode-dentrée-provenance-mode-de-sortie-orientation-destination">Mode d'entrée/ Provenance / Mode de sortie / Orientation / Destination</h2>
+<p>MODE ENTREE - MODE DE SORTIE | PROVENANCE - DESTINATION<br />------------------------------|--------------------------<br />6: MUTATION depuis/dans l'établissement siège du SU | 1: Établissement ou service MCO<br />7: TRANSFERT depuis/vers un autre établissement | 2: Établissement ou service SSR<br />8: DOMICILE au sens large, y compris la voie publique | 3: Établissement ou service SLD<br />9: DECES aux urgences. Uniquement en mode sortie | 4: Établissement ou service PSY<br /> | 5: Prise en charge autre qu'organisationnelle<br /> | 7: Structure médico-sociale<br /> | 8: Prise en charge organisationnelle</p>
+<p>Ces variables permettent de faire un certain nombre de croisement:</p>
+<ul>
+<li>Transfert vers les urgences depuis un autre établissement: mode d'entrée 7, la provenance précise la typologie d'activité du service d'amont</li>
+<li>Urgences internes de l'établissement vues aux urgences: mode d'entrée 6</li>
+<li>Venues aux urgences de patient résidant en EHPAD: mode d'entrée 8 + provenance 7</li>
+<li>réorientation sans soins dès l'admission vers une consultation libérale: Mode de sortie 8 + orientation REO</li>
+<li>simple enregistrement avant hospitalisation en service spécialisé: mode de sortie 6 + REO</li>
+<li>reconvocation aux urgences: code diagnostic type surveillance de suture, pansement (Z48) de platre (Z47.88)</li>
+</ul>
+<h1 id="variables-rpu-5">Variables RPU</h1>
+<h2 id="score-ccmu">Score CCMU</h2>
+<ul>
+<li><p>Il doit s'établir <strong>dès l'admission après le premier examen clinique</strong></p></li>
+<li><p><u>CCMU 1</u>: Etat lésionnel ou pronostic fonctionnel jugé stable <strong>après le premier examen clinique</strong> éventuellement complété d’actes diagnostiques réalisés et interprétés aux lits du malade, abstention d’actes complémentaires ou de thérapeutique (sauf ECG)</p></li>
+<li><p><u>CCMU 2</u>: Etat lésionnel ou pronostic fonctionnel jugé stable, réalisation d’actes complémentaires aux urgences en dehors des actes diagnostiques éventuellement réalisés et interprétés au lits du malade et / ou d’actes thérapeutiques</p></li>
+<li><p><u>CCMU 3</u>: Etat lésionnel ou pronostic fonctionnel jugé susceptible de s’aggraver aux urgences sans mettre en jeu le pronostic vital</p></li>
+<li><p><u>CCMU 4</u>: Situation pathologique engageant le pronostic vital aux urgences sans manœuvre de réanimation initiée ou poursuivie dés l’entrée aux urgences</p></li>
+<li><p><u>CCMU 5</u>: Situation pathologique engageant le pronostic vital aux urgences avec initiation ou poursuite de manœuvres de réanimation dés l’entrée aux urgences</p></li>
+<li><p><u>CCMU P</u>: Idem CCMU 1 avec problème dominant psychiatrique ou psychologique isolé ou associé à une pathologie somatique jugée stable.</p></li>
+<li><p><u>CCMU D</u>: Patient décédé à l’entrée aux urgences sans avoir pu bénéficier d’initiation ou poursuite de manœuvres de réanimation aux urgences</p></li>
+</ul>
+<h1 id="variables-rpu-6">Variables RPU</h1>
+<h2 id="motif-de-recours">Motif de recours</h2>
+<ul>
+<li>l'usage du texte libre doit être banni</li>
+<li>ce champ doit être rempli à l'aide du <strong>Thesaurus SFMU</strong></li>
+<li>Bien qu'il utilise une méthodologie dérivée de la CIM10, ce codage ne correspond pas au codage PMSI. Le codage PMSI est réalisé à postériori avec une finalité de tarification. Le codage diagnostic des RPU est réalisé en temps réel à l'issue de la prise en charge aux urgences. A ce stade il reste fréquemment moins précis.</li>
+</ul>
+<h1 id="variables-rpu-7">Variables RPU</h1>
+<h2 id="actes">Actes</h2>
+<p>Codés en CCAM, le format doit au moins contenir les 7 premiers caractères. Il est recommandé d'utiliser le <strong>thésaurus CCAM</strong> de la SFMU.</p>

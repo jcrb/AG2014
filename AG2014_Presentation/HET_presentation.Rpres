@@ -9,10 +9,13 @@ Carte des tensions
 
 ![Tensions](tensions.png)
 
+Cette présentation est basée sur le travail de la FEDORU (GT4 Hôpital en tension)
+
 Définition
 ========================================================
 
 L'HET est une situation exceptionnelle conséquence d'une inadéquation entre 
+
 - les moyens disponibles (lits, personnel) 
 - et les besoins immédiats d'hospitalisation non programmée. 
 
@@ -49,8 +52,6 @@ __Seul le chef d'établissement peut déclencher le plan "hôpital en tension" (
 - On appelle __"alerte tension"__ ou "pré-tension" des situations de grandes difficultés générant des alertes "sauvages" vers l'ARS ou le SAMU
 
 - Il est indispensable d'encadrer ces pratiques au niveau régional en assurant une rétro-information fiable entre direction des établissements, ARS et SAMU.
-
-=========================================
 
 - RESURAL propose de créer  un __outil en ligne__ qui informe systématiquement 
     - la direction de l'établissement

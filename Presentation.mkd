@@ -4,6 +4,22 @@
 %
 ---
 
+Transformation en PDF
+---------------------
+
+FILE<-"presentation_AG2014"
+system(paste("pandoc -o ", FILE, ".pdf ", FILE, ".md", sep=""))
+
+FILE<-"AG2014_Presentation/Charte_presentation"
+system(paste("pandoc -o ", FILE, ".pdf ", FILE, ".md", sep=""))
+
+FILE<-"HET_presentation"
+system(paste("pandoc -o ", FILE, ".pdf ", FILE, ".md", sep=""))
+
+NB: remplacer ".pdf" par ".doc" pour obtenir un document Word.
+
+
+
 Bilan des RPU 2014
 ==================
 

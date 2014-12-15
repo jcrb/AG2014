@@ -163,9 +163,9 @@ Aspect qualitatifs
 
 - HUS transmettent la totalité des RPU adultes et pédiatriques (10 octobre 2014)
 
-Date | nombre de RPU |
------|:---------------:|
-2014-10-06 | 139  
+Date   |   nombre de RPU   |   
+-----|:---------------:|    
+2014-10-06 | 139   
 2014-10-07 | 415  
 2014-10-08 | 422  
 2014-10-09 | 425  
